@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(181, 175, 175);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(88, 90, 91);
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(120, 114, 114);            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;                        
+        }     
+
+    </style>
+
+</head>
+<body>
+    
+    <header>        
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="assuntos"></section>
+
+        <h2>Esporte Política Tecnologia</h2>
+
+        <section id="noticias">
+
+            <article>
+
+                <h2>Notícia sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi neque alias, minima eum eveniet ex vel mollitia ducimus rerum aut quisquam, atque minus recusandae sunt numquam voluptas est nemo eligendi!</p>
+
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article>
+
+            <article></article>
+        </section>
+
+    </main>
+
+    <footer>Desenvolvido pelo CursoemVídeo</footer>
+</body>
+</html>
