@@ -8,7 +8,12 @@
     <style>
 
         @font-face {
-            font-family: 'graffiti';
+            font-family: 'graffiti-regular';
+            src: url('fonts/GastarGraffiti-Regular.otf') format(opentype);
+        }
+
+        @font-face {
+            font-family: 'graffiti-outline';
             src: url('fonts/GastarGraffiti-outline.otf') format('opentype');
             font-weight: normal;
             font-style: normal;
@@ -30,17 +35,26 @@
         }
 
         h1 {
-            font-family: 'graffiti', sans-serif;
-            font-size: 8em;
+            font-family: 'graffiti-outline', sans-serif;
+            font-size: 4em;
             font-weight: normal;
-        }    
+        } 
+        
+        h2 {
+            font-family: 'graffiti-regular', sans-serif;
+            font-size: 4em;
+            font-weight: normal;
+        }
 
     </style>
 
 </head>
 <body>
     
-    <h1>Títulos</h1>
+    <h1>Títulos OUTLINE</h1>
+   
+    <h2>Títulos EXTRUDE</h2>
+    
 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas dicta modi, eos alias earum commodi nam quia aut itaque unde natus pariatur labore vel consectetur exercitationem fugit corporis omnis?</p>
 
