@@ -4,29 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Exercício</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
 
-    <h1>1. INTRODUÇÃO</h1>
-    
-    <P>Uma página HTML possui três partes básicas: estrutura principal, cabeçalho e o corpo de página.</P>
+    <header>
 
-    <p><strong>&lt;!DOCTYPE html&gt;</strong>: A primeira linha se chamada DOCTYPE, e tem a função de avisar aos browsers, robôs de busca, leitores de tela e outras coisas, qual o tipo de documento que eles estão prestes a carregar. Existem outros códigos que podem ser carregados, como XML, por exemplo. Por isso a necessidade do Doctype avisar o browser para que ele saiba como se comportar ao ler o código.</p>
+        <h1>HTML5 E CSS3</h1>
 
-    <p><strong>&lt;html lang="pt-br"&gt;&lt;/html&gt;</strong>: Depois inicia-se com a tag HTML. Isso quer dizer que tudo o que estiver entre as tags <html></html> é escrito em HTML. Ao lado da palavra HTML tem um atributo chamado “lang”, onde é indicado qual o idioma dos textos.</p>
+    </header>
+    
+    <main>
 
-    <p><strong>&lt;head&gt;&lt;/head&gt;</strong>: Logo após a tag &lt;html&gt; encontra-se a tag &lt;head&gt;, onde é indicado o título do documento por meio da tag &lt;title&gt;, a tabela de caracteres que o browser deve usar para renderizar o texto e outras informações necessárias para navegador que não são visíveis para o usuário.</p>
-    
-    <h2>Uma Observação!</h2>
-    
-    <p>O Google e outros sistemas de busca utilizam a tag &lt;title&gt; para indicar em suas buscas o título da página. Isso é muito importante para definir se e como o site aparecerá nas buscas.</p>
+        <section class="corpo0">
 
-    <p>Logo após a TAG de fechamento &lt;/head&gt; inicia-se a tag <STRONG>&lt;/body&gt;</STRONG>. Dentro deste elemento é escrito todo o código HTML do resto do site, que será visualizado pelo usuário.</p>
-    
-    <h1> <a href="titulosesubtitulos.html" target="_blank" rel="next"><abbr title="Título e Subtítulo">Olá, Mundo!</abbr></a> </h1>
-    
-    <p>Esse é o meu primeiro documento HTML! Estou muito feliz.</p>
-    
-    <p>Este é um momento único! Estou criando um site!</p>
+            <P>Uma página HTML possui três partes básicas: <mark>estrutura principal, cabeçalho e o corpo de página</mark>.</P>
+
+            <p><strong>&lt;!DOCTYPE html&gt;</strong>: A primeira linha se chamada <mark>DOCTYPE</mark>, e tem a função de avisar aos browsers, robôs de busca, leitores de tela e outras coisas, qual o tipo de documento que eles estão prestes a carregar. Existem outros códigos que podem ser carregados, como XML, por exemplo. Por isso a necessidade do Doctype avisar o browser para que ele saiba como se comportar ao ler o código.</p>
+
+            <p><strong>&lt;html lang="pt-br"&gt;&lt;/html&gt;</strong>: Depois inicia-se com a tag HTML. Isso quer dizer que tudo o que estiver entre as tags <html></html> é escrito em HTML. Ao lado da palavra HTML tem um atributo chamado “lang”, onde é indicado qual o idioma dos textos.</p>
+
+            <p><strong>&lt;head&gt;&lt;/head&gt;</strong>: Logo após a tag &lt;html&gt; encontra-se a tag &lt;head&gt;, onde é indicado o título do documento por meio da tag &lt;title&gt;, a tabela de caracteres que o browser deve usar para renderizar o texto e outras informações necessárias para navegador que não são visíveis para o usuário.</p>
+
+            <p><strong>&lt;Title&gt;&lt;/Title&gt;:</strong> O Google e outros sistemas de busca utilizam a tag &lt;title&gt; para indicar em suas buscas o título da página. Isso é muito importante para definir se e como o site aparecerá nas buscas.</p>
+
+            <p><strong>&lt;Body&gt;&lt;/Body&gt;:</strong> Logo após a TAG de fechamento &lt;/head&gt; inicia-se a tag <STRONG>&lt;/body&gt;</STRONG>. Dentro deste elemento é escrito todo o código HTML do resto do site, que será visualizado pelo usuário.</p>
+
+        </section>
+
+        <section class="corpo1">           
+            
+            <h1>Veja Exemplos</h1>
+            
+            <a href="titulosesubtitulos.html" target="_blank" rel="next"><abbr title="Título e Subtítulo">Olá, Mundo!</abbr></a>           
+
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Parágrafos e Quebras de linhas</h1>
+
+            <p>Vocè pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;
+
+            <p>Se precisar quebrar o texto em algum lugar específico
+            <br> <mark>como esse, você pode usar a tag &lt;br&gt;.</mark></p>
+            
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Adicionando Símbolos Especiais</h1>
+
+
+            <table>
+
+                <tr>
+                    <td>&amp;</td>
+                    <td>'&'amp;'</td>                
+                </tr>
+
+                <tr>
+                    <td>&reg;</td>
+                    <td>'&'reg;'</td>
+                </tr>
+                
+                <tr>
+                    <td>&trade;</td>
+                    <td>'&'trade;'</td>
+                </tr>
+
+                <tr>
+                    <td>&copy;</td>
+                    <td>'&'copy;'</td>
+                </tr>
+
+                <tr>
+                    <td>&starf;</td>
+                    <td>'&'starf;'</td>
+                </tr>                
+
+                <tr>
+                    <td>&iquest;</td>
+                    <td>'&'iquest;'</td>
+                </tr>
+
+            </table>                
+
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Adicionando Símbolos Emojis</h1>
+
+            <table>
+
+                <tr>
+                    <td>&#x1f60d</td>
+                    <td>&#x'1f60d</td>                
+                </tr>
+
+                <tr>
+                    <td>&#x1f923</td>
+                    <td>&#x'1f923</td>
+                </tr>
+                
+                <tr>
+                    <td>&#x1f949</td>
+                    <td>&#x'1f949</td>
+                </tr>
+
+                <tr>
+                    <td>&#x1f44c</td>
+                    <td>&#x'1f44c</td>
+                </tr>
+
+                <tr>
+                    <td>&#x1f4aa</td>
+                    <td>&#x'1f4aa</td>
+                </tr>                
+
+                <tr>
+                    <td>&#x1f44f</td>
+                    <td>&#x'1f44f</td>
+                </tr>
+
+            </table>         
+
+        </section>
+
+    </main>
+
 </body>
 </html>
