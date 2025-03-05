@@ -11,10 +11,6 @@
 }
 
 
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +55,7 @@ section.corpo1 > h1 {
 
 section.corpo1 > p {
     font-family: var(--font3);
-    padding: 15px 0px;
+    padding: 15px 20px;
     text-align: justify;
     text-indent: 2em;
     line-height: 2em;
@@ -72,3 +68,6 @@ p.titulo {
     font-size: 1.5em;
     margin-top: 10px;    
 }
+
+
+

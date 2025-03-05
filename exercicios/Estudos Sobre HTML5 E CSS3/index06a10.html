@@ -36,64 +36,43 @@
 
             <p>Nesta frase, tenho um termo em <strong>Destaque</strong> usando a tag ( <mark>&lt;Strong&gt;</mark> Semântica)</p>   
 
-        </section>
-
-        <section class="corpo1">
-
+            
             <p class="titulo">Itálico / Ênfase</p>
 
             <p>Nesta frase, temos um termo em <i>itálico</i> usando a tag ( <mark>&lt;I&gt;</mark> Não Semântica)</p>
 
             <p>Nesta frase, temos um termo em <em>Ênfase</em> usando a tag ( <mark>&lt;EM&gt;</mark> Semântica)</p>
 
-        </section>
-
-        <section class="corpo1">
-
+        
             <p class="titulo">Texto Marcado</p>
 
             <p>Podemos criar também <mark>um texto marcado</mark> usando a tag (<mark>&lt;MARK&gt;</mark> Semântica) .</p>
 
-        </section>
-
-        <section class="corpo1">
-
+        
             <p class="titulo">Texto Grande e Pequeno</p>
 
             <p>Estamos criando um <big>Texto Grande</big> ( <mark>&lt;big&gt;</mark> que está obsoleta.)</p>
 
             <p>Agora estamos criando um <small>Texto Pequeno</small> ( <mark>&lt;small&gt;</mark> Semântica.)</p>
             
-        </section>
-
-        <section class="corpo1">
-
+        
             <p class="titulo">Texto Deletado</p>
 
             <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. ( <mark>&lt;del&gt;</mark> Semântica.)</p>            
             
-        </section>
-
-        <section class="corpo1">
-
+            
             <p class="titulo">Texto Inserido</p>
 
             <p>Podemos marcar <ins>um texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois ( <mark>&lt;ins&gt;</mark> Semântica.)</p>
             
             <p>Existe também o <u>sublinhado</u> com a tag ( <mark>&lt;U&gt;</mark> Não Semântica)</p>
             
-        </section>
-
-        <section class="corpo1">
-
+        
             <p class="titulo">Texto Sobrescrito</p>
 
             <p>Para inserir coisas do tipo x<sup>20</sup>+3 ( <mark>&lt;sup&gt;</mark> Semântica)</p>            
             
-        </section>
-
-        <section class="corpo1">
-
+        
             <p class="titulo">Texto Subscrito</p>
 
             <p>Para inserir coisas do tipo H<sub>2</sub>O ( <mark>&lt;sub&gt;</mark> Semântica)</p>            
@@ -137,36 +116,138 @@
 
         </code>
 
-        </section>
-
-        <section class="corpo1">
-
-            <h1>Citações Simples <br> Ex008.1</h1>
+        
+            <p class="titulo">Citações Simples</p>
 
             <p>Para criar uma citação em HTML, podemos usar a tag <mark>&lt;q&gt;</mark> ( do Inglês quote, que significa citar).</p>
 
             <p style="font-family: Arial, Helvetica, sans-serif;">Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
 
-        </section>
-
-        <section class="corpo1">
-            
-            <h1>Abreviações <br> Ex008.1</h1>
+        
+            <p class="titulo">Abreviações</p>
 
             <p>Estou estudando <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
 
             <p> Sempre que você quiser escrever uma sigla, mas 
             deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag <mark>&lt;abbr&gt;</mark>.</p>
 
-            <h1>Texto invertido</h1>
+            <p class="titulo">Texto invertido</p>
 
             <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
 
-            <p>Você pode fazer essa mágica <q>Escrota</q>, usando a Tag ( <mark>&lt;bdo dir="rtl"&gt; &lt;/bdo&gt;</mark>)</p>
+            <p>Você pode fazer essa mágica <q>Escrota</q>, usando a Tag ( <mark>&lt;bdo dir="rtl"&gt; &lt;/bdo&gt;</mark> )</p>
         
-        </section>        
+        </section> 
         
+        <section class="corpo1">
+
+            <h1>Trabalhando com Listas <br> Ex009</h1>
+
+            <p class="titulo">Listas Ordenadas</p>
+
+            <ol type="I">
+                <li>Acordar</li>
+                <li>Ligar pro João</li>
+                <li>Tomar Café</li>
+                <li>Escovar os Dentes</li>
+                <li>Ir para Faculdade</li>
+                <li>Almoçar</li>
+                <li>Ir para o trabalho</li>
+                <li>Voltar para casa</li>
+                <li>Jantar</li>
+                <li>Dormir</li>                
+            </ol>
+
+            <p class="titulo">Listas não ordenadas</p>
+
+            <ul>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+                <li>Alface</li>
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul> 
+            
+            <p class="titulo">Minhas Linguagem Favoritas</p>
+
+            <ol>
+
+                <li>Antigas</li>
+
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+
+                <li>Novas</li>
+            <ol type="a" start="5">
+                <li>Php</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>    
+                
+            </ol>
+
+            <p class="titulo">Meus Jogos Favoritos</p>
+
+            <ol class="espaco">
+                <li>NES</li>
+
+                <ul type="Square">
+                    <li>Mario Bros</li>
+                <ul>
+                    <li>Mario Bros 3</li>
+                    <li>Mario Lost Levels</li>
+                </ul>                        
+                </ul>
+                    <LI>SNES</LI>
+
+                <ul type="Square">
+                    <li>Mario</li>
+                    <li>Donkey Kong</li>                       
+                </ul>
+
+                    <li>PlayStation</li>
+                <ul>
+                    <li>Final Fantasy</li>
+                    <li>Castlevania</li>
+                </ul>        
+            </ol>
+
+            <p class="titulo">Lista de Definições</p>
+
+            <dl>
+
+                <dt>HTML</dt>
+
+                <dd>Linguagem de programação para a criação de conteúdo de um site.</dd>
+
+                <dt>CSS</dt>
+
+                <dd>Linguagem de marcação para a criação do design de um site.</dd>
+
+                <dt>JavaScript</dt>
+
+                <dd>Linguagem de programação para a criação de interatividade de um site.</dd>               
+
+            </dl>
+
+        </section>
+        
+        <section class="corpo1">
+
+            <h1>Criando Links Internos /Externos / Download <br> Ex010</h1>
+
+        </section>
+
     </main>
+
+    
     
 </body>
 </html>
