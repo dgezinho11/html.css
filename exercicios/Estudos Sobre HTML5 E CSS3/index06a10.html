@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style06a10.css">
+    <title>Exemplos Ex06 a Ex10</title>
+</head>
+<body>
+
+    <header>
+        <h1>Exemplo Hierarquia de Títulos <br> Ex006</h1>
+    </header>
+
+    <main>
+        
+        <section class="corpo1">
+            <p>&#x27a4; Exercício Já Feito no Ex002</p>
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Exercício em Branco <br> Ex007</h1>
+
+            <p>&#x27a4; Exercício Já Feito (Em Branco)</p>
+
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Principais Formatações <br> Ex008</h1>
+
+            <p class="titulo">Negrito / Destaque</p>
+
+            <p>Nesta frase, tenho um termo em <b>negrito</b> usando a tag ( <mark>&lt;B&gt;</mark> não Semântica)</p>
+
+            <p>Nesta frase, tenho um termo em <strong>Destaque</strong> usando a tag ( <mark>&lt;Strong&gt;</mark> Semântica)</p>   
+
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Itálico / Ênfase</p>
+
+            <p>Nesta frase, temos um termo em <i>itálico</i> usando a tag ( <mark>&lt;I&gt;</mark> Não Semântica)</p>
+
+            <p>Nesta frase, temos um termo em <em>Ênfase</em> usando a tag ( <mark>&lt;EM&gt;</mark> Semântica)</p>
+
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Marcado</p>
+
+            <p>Podemos criar também <mark>um texto marcado</mark> usando a tag (<mark>&lt;MARK&gt;</mark> Semântica) .</p>
+
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Grande e Pequeno</p>
+
+            <p>Estamos criando um <big>Texto Grande</big> ( <mark>&lt;big&gt;</mark> que está obsoleta.)</p>
+
+            <p>Agora estamos criando um <small>Texto Pequeno</small> ( <mark>&lt;small&gt;</mark> Semântica.)</p>
+            
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Deletado</p>
+
+            <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. ( <mark>&lt;del&gt;</mark> Semântica.)</p>            
+            
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Inserido</p>
+
+            <p>Podemos marcar <ins>um texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois ( <mark>&lt;ins&gt;</mark> Semântica.)</p>
+            
+            <p>Existe também o <u>sublinhado</u> com a tag ( <mark>&lt;U&gt;</mark> Não Semântica)</p>
+            
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Sobrescrito</p>
+
+            <p>Para inserir coisas do tipo x<sup>20</sup>+3 ( <mark>&lt;sup&gt;</mark> Semântica)</p>            
+            
+        </section>
+
+        <section class="corpo1">
+
+            <p class="titulo">Texto Subscrito</p>
+
+            <p>Para inserir coisas do tipo H<sub>2</sub>O ( <mark>&lt;sub&gt;</mark> Semântica)</p>            
+            
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Trechos de Código <br>Ex008.1</h1>
+
+            <p class="titulo">Código-Fonte</p>            
+
+            <p>Nós somos ( ou seremos ) programadores, e por isso compartilhamos muito código fonte em diversas linguagens. Para isso, existe a tag <mark>&lt;code&gt;</mark> da HTML onde você pode delimitar seu código. A principal vantagem no uso dessa tag é a o valor semântico que ela representa, indicando ao navegador que se trata de um código de computador. Porém, existe também um efeito visual, pois as letras ficam no modo mono-espaçadas (monospace), o que facilita bastante a leitura do código. Analise, por exemplo, o trecho de código a seguir:</p>
+
+            <p>O Comando get.ElementById('teste') é escrito em linguagem javaScript.</p>
+
+            <code>                
+                    num = int(input('Digite um número'))
+                    if num % 3 ==0:
+                        print(f'0 número {num} é Par)
+                    else:
+                        print(f'O número {num} é impar')
+                    print('fim do programa')                
+
+            </code>
+
+            <p>Para resolver esse problema, vamos usar uma outra tag HTML chamada <mark>&lt;pre&gt;</mark>, que mantém o texto pré-formatado, exatamente da mesma maneira na qual ele foi digitado, incluindo quebras de linhas, espaços e tabulações.</p>
+
+            <p>O Comando get.ElementById('teste') é escrito em linguagem javaScript.</p>
+
+            <code>    
+
+                <pre>
+                    num = int(input('Digite um número'))
+                    if num % 3 ==0:
+                        print(f'0 número {num} é Par)
+                    else:
+                        print(f'O número {num} é impar')
+                    print('fim do programa')
+                </pre>             
+
+        </code>
+
+        </section>
+
+        <section class="corpo1">
+
+            <h1>Citações Simples <br> Ex008.1</h1>
+
+            <p>Para criar uma citação em HTML, podemos usar a tag <mark>&lt;q&gt;</mark> ( do Inglês quote, que significa citar).</p>
+
+            <p style="font-family: Arial, Helvetica, sans-serif;">Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+        </section>
+
+        <section class="corpo1">
+            
+            <h1>Abreviações <br> Ex008.1</h1>
+
+            <p>Estou estudando <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+            <p> Sempre que você quiser escrever uma sigla, mas 
+            deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag <mark>&lt;abbr&gt;</mark>.</p>
+
+            <h1>Texto invertido</h1>
+
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+
+            <p>Você pode fazer essa mágica <q>Escrota</q>, usando a Tag ( <mark>&lt;bdo dir="rtl"&gt; &lt;/bdo&gt;</mark>)</p>
+        
+        </section>        
+        
+    </main>
+    
+</body>
+</html>
