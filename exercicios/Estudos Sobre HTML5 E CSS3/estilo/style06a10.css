@@ -77,12 +77,13 @@ div.quadrado {
 }
 
 span.cor {
-    background-color: rgb(147, 179, 206);
-    color: rgb(134, 15, 15);
+    background-color: rgb(119, 166, 207);
+    color: rgb(249, 0, 120);
     font-size: 1.5em;
     font-weight: bold;
-    padding: 0px 5px;
+    padding: 0px 5px;   
 }
+
 
 
 

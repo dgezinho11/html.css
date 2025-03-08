@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Ex011 a Ex015</title>
+    <link rel="stylesheet" href="estilo/style11a15.css">
+</head>
+<body>
+    
+    <header>
+
+        <h1> HTML5 E CSS3 <br> Ex011</h1>
+
+    </header>   
+
+        <main>            
+            
+                <section class="corpo1">
+
+                    <p class="titulo">Imagens Dinâmica</p>
+
+                    <p>Teste abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+                    <picture>
+
+                        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+                        <source media="(max-width: 950px)" srcset="imagens/foto-m.png" type="image/png">
+                    
+                        <img src="imagens/foto-g.png" alt="Imagem Grande">
+
+                    </picture>
+
+                    <p><span class="cor">Exemplo:</span> <br>
+
+                        
+
+                        <aside>
+
+                            &lt;picture> <br>
+
+                            &lt;source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <br>
+
+                            &lt;source media="(max-width: 950px)" srcset="imagens/foto-m.png" type="image/png"> <br>
+                            
+                            &lt;img src="imagens/foto-g.png" alt="Imagem Grande"> <br> 
+
+                            &lt;/picture>
+
+                        </aside>
+                    
+                    </p>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <p class="titulo">Reproduzindo Aúdio</p>
+
+                    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+
+                    <audio preload="auto" controls>
+
+                        <source src="medias/guanacast-33.mp3" type="audio/mpeg">
+
+                        <source src="medias/guanacast-33.ogg" type="audio/ogg">
+
+                        <source src="medias/guanacast-33.wav" type="audio/wav">
+
+                    </audio>
+
+                    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="medias/guanacast-33.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+
+                    <p><span class="cor">Exemplo:</span></p>
+
+                    <aside>
+                     
+                        &lt;audio preload="auto" controls> <br>
+
+                        &lt;source src="medias/guanacast-33.mp3" type="audio/mpeg">
+                        <br>
+    
+                        &lt;source src="medias/guanacast-33.ogg" type="audio/ogg">
+                        <br>
+    
+                        &lt;source src="medias/guanacast-33.wav" type="audio/wav">
+                        <br>
+    
+                        &lt;/audio>
+                        
+                    </aside>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <h1>Inserindo Videos Hospedados Localmente - Ex012</h1>
+
+                    <p>Este Vídeo está hospedado no meu próprio servidor.</p>
+
+                    <video width="500" poster="../ex012/imagens/limoes-capa.png" controls>
+
+                    <source src="../ex012/medias/meu-video.mp4" type="video/mp4">
+
+                    <source src="../ex012/medias/meu-video.m4v" type="video/m4v">
+
+                    <source src="../ex012/medias/meu-video.ogv" type="video/ogv">
+
+                    <source src="../ex012/medias/meu-video.webm" type="video/webm">
+
+                    </video>
+
+                    <p>Seu navegador não tem compatibilidade com reprodução de vídeo. <br> <a href="../ex012/medias/meu-video.m4v">Acesse aqui para baixar</a></p>
+
+                    <p><span class="cor">Exemplo:</span></p>
+
+                    <aside>                        
+
+                        &lt;video width="500" poster="../ex012/imagens/limoes-capa.png" controls> <br>
+
+                        &lt;source src="../ex012/medias/meu-video.mp4" type="video/mp4">
+                        <br>
+
+                        &lt;source src="../ex012/medias/meu-video.m4v" type="video/m4v">
+                        <br>
+
+                        &lt;source src="../ex012/medias/meu-video.ogv" type="video/ogv">
+                        <br>
+
+                        &lt;source src="../ex012/medias/meu-video.webm" type="video/webm">
+                        <br>
+
+                        &lt;/video>
+
+                    </aside>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <p class="titulo">Inserindo vídeos do Youtube</p>
+
+                    <p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=9cNqZv95tQlA78Ty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </p>
+
+                    <p><span class="cor">Exemplo:</span></p>
+
+                    <p>
+
+                    &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=9cNqZv95tQlA78Ty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                    </p>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <h1>Estilos Inline <br> Ex013</h1>
+
+                  <p>Podemos configurar estilos na própria página (Que não é recomendado para códigos grandes).</p>
+
+                <p><span class="cor">Exemplo</span>
+
+                    <aside>
+
+                        &lt;style> <br>
+
+                        h1 { <br>
+                            backgroud: yellow; <br>
+                        } <br>
+
+                        </style>
+
+                    &lt;/aside>
+                
+                </p>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <h1>Estilos Locais <br> Ex014</h1>
+
+                  <p>Podemos configurar estilos na própria página (Que não é recomendado para códigos grandes).</p>
+
+                <p><span class="cor">Exemplo</span>
+
+                    <aside>
+
+                       &lt;h1 <mark>style="color: red;"</mark>>Capítulo 1</h1> <br>
+
+                       &lt;h2 <mark>style="color: green;"</mark>>Capítulo 1.1</h2> <br>
+
+                       &lt;p <mark>style="text-aling: justify;"</mark>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestias placeat, quam earum laborum dicta cupiditate doloremque. Impedit commodi labore voluptas, nam alias, unde vero, quo obcaecati id eos dignissimos?</p>
+
+                    &lt;/aside>
+                
+                </p>
+
+                </section>
+
+                <section class="corpo1">
+
+                    <h1>Estilos Internos <br> Ex015</h1>
+
+                  <p>Podemos configurar o estilo da nossa página adicionando o estilo.css</p>
+
+                <p><span class="cor">Exemplo</span>
+
+                    <aside>
+
+                        &lt;aside> <br>
+
+                        &lt;link rel="stylesheet" href="estilo/style11a15.css"> <br>
+
+                        &lt;/aside> <br>
+                        
+                    </aside>
+                
+                </p>
+
+                </section>
+
+        </main>
+
+</body>
+</html>

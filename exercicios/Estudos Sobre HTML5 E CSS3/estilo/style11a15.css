@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Playfair Display", serif;
+    --font3: "Sriracha", serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+}
+
+header {
+    min-height: 120px;        
+    background-color: rgb(66, 63, 72);
+    color: white;
+    text-align: center;    
+}
+
+header h1 {
+    font-family: var(--font2);
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 10px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    padding: 15px;
+}
+
+section.corpo0 > p {
+    font-family: var(--font3);
+    padding: 20px 0px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+section.corpo1 {
+    padding: 10px;
+}
+
+section.corpo1 > h1 {
+    min-height: 50px;        
+    background-color: rgb(66, 63, 72);
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0px -15px;
+    letter-spacing: 10px;    
+}
+
+section.corpo1 > p {
+    font-family: var(--font3);
+    padding: 15px 0px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+p.titulo {
+    background-image: linear-gradient(to right, #42EBCB, transparent);
+    color: rgb(58, 56, 56);
+    font-family: var(--font3);
+    font-size: 1.5em;
+    margin-top: 10px;    
+}
+
+section.corpo1 > a {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span.cor {
+    background-color: rgb(119, 166, 207);
+    color: rgb(249, 0, 120);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px 5px;   
+}
+
+.espaco {
+    padding: 10px 0px;    
+}
+
+aside {
+    font-family: var(--font3);
+    padding: 15px 10px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 3em;
+}
+
+.markred {
+    background-color: rgb(206, 46, 46);
+    color: white;    
+}
+
