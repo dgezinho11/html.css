@@ -43,14 +43,6 @@ main {
     padding: 15px;
 }
 
-section.corpo0 > p {
-    font-family: var(--font3);
-    padding: 20px 0px;
-    text-align: justify;
-    text-indent: 2em;
-    line-height: 2em;
-}
-
 section.corpo1 {
     padding: 10px;
 }
@@ -82,38 +74,3 @@ p.titulo {
     font-size: 1.5em;
     margin-top: 10px;    
 }
-
-section.corpo1 > a {
-    display: block;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 3em;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-span.cor {
-    background-color: rgb(119, 166, 207);
-    color: rgb(249, 0, 120);
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 0px 5px;   
-}
-
-.espaco {
-    padding: 10px 0px;    
-}
-
-aside {
-    font-family: var(--font3);
-    padding: 15px 10px;
-    text-align: justify;
-    text-indent: 2em;
-    line-height: 3em;
-}
-
-.markred {
-    background-color: rgb(206, 46, 46);
-    color: white;    
-}
-
