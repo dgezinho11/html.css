@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/style06a10.css">
+    <title>Exemplos Ex06 a Ex10</title>
+</head>
+<body>  
+
+    <header>
+        <h1>Exemplo Hierarquia de Títulos <br> Ex006</h1>
+    </header>    
+
+    <main>
+        
+        <section>
+            <p>&#x27a4; Exercício Já Feito no <a href="../index01a05/index01a05.html" target="_blank" rel="next">Ex002</a></p>
+        </section>
+
+
+        <section>
+
+            <h1>Exercício em Branco <br> Ex007</h1>
+
+            <p>&#x27a4; Exercício Já Feito (Em Branco)</p>
+
+        </section>
+
+
+        <section>
+
+            <h1>Principais Formatações <br> Ex008</h1>
+
+            <p class="titulo">Negrito / Destaque</p>
+
+            <p>Nesta frase, tenho um termo em <b>negrito</b> usando a tag ( <mark>&lt;B&gt;</mark> não Semântica)</p>
+
+            <p>Nesta frase, tenho um termo em <strong>Destaque</strong> usando a tag ( <mark>&lt;Strong&gt;</mark> Semântica)</p>   
+
+            
+            <p class="titulo">Itálico / Ênfase</p>
+
+            <p>Nesta frase, temos um termo em <i>itálico</i> usando a tag ( <mark>&lt;I&gt;</mark> Não Semântica)</p>
+
+            <p>Nesta frase, temos um termo em <em>Ênfase</em> usando a tag ( <mark>&lt;EM&gt;</mark> Semântica)</p>
+
+        
+            <p class="titulo">Texto Marcado</p>
+
+            <p>Podemos criar também <mark>um texto marcado</mark> usando a tag (<mark>&lt;MARK&gt;</mark> Semântica) .</p>
+
+        
+            <p class="titulo">Texto Grande e Pequeno</p>
+
+            <p>Estamos criando um <big>Texto Grande</big> ( <mark>&lt;big&gt;</mark> que está obsoleta.)</p>
+
+            <p>Agora estamos criando um <small>Texto Pequeno</small> ( <mark>&lt;small&gt;</mark> Semântica.)</p>
+            
+        
+            <p class="titulo">Texto Deletado</p>
+
+            <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. ( <mark>&lt;del&gt;</mark> Semântica.)</p>            
+            
+            
+            <p class="titulo">Texto Inserido</p>
+
+            <p>Podemos marcar <ins>um texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois ( <mark>&lt;ins&gt;</mark> Semântica.)</p>
+            
+            <p>Existe também o <u>sublinhado</u> com a tag ( <mark>&lt;U&gt;</mark> Não Semântica)</p>
+            
+        
+            <p class="titulo">Texto Sobrescrito</p>
+
+            <p>Para inserir coisas do tipo x<sup>20</sup>+3 ( <mark>&lt;sup&gt;</mark> Semântica)</p>            
+            
+        
+            <p class="titulo">Texto Subscrito</p>
+
+            <p>Para inserir coisas do tipo H<sub>2</sub>O ( <mark>&lt;sub&gt;</mark> Semântica)</p>            
+            
+        </section>
+
+        <section>
+
+            <h1>Trechos de Código <br>Ex008.1</h1>
+
+            <p class="titulo">Código-Fonte</p>            
+
+            <p>Nós somos ( ou seremos ) programadores, e por isso compartilhamos muito código fonte em diversas linguagens. Para isso, existe a tag <mark>&lt;code&gt;</mark> da HTML onde você pode delimitar seu código. A principal vantagem no uso dessa tag é a o valor semântico que ela representa, indicando ao navegador que se trata de um código de computador. Porém, existe também um efeito visual, pois as letras ficam no modo mono-espaçadas (monospace), o que facilita bastante a leitura do código. Analise, por exemplo, o trecho de código a seguir:</p>
+
+            <p>O Comando get.ElementById('teste') é escrito em linguagem javaScript.</p>
+
+            <code>                
+                    num = int(input('Digite um número'))
+                    if num % 3 == 0:
+                        print(f'0 número {num} é Par)
+                    else:
+                        print(f'O número {num} é impar')
+                    print('fim do programa')                
+
+            </code>
+
+            <p>Para resolver esse problema, vamos usar uma outra tag HTML chamada <mark>&lt;pre&gt;</mark>, que mantém o texto pré-formatado, exatamente da mesma maneira na qual ele foi digitado, incluindo quebras de linhas, espaços e tabulações.</p>
+
+            <p>O Comando get.ElementById('teste') é escrito em linguagem javaScript.</p>
+
+            <code>    
+
+                <pre>
+                    num = int(input('Digite um número'))
+                    if num % 3 == 0:
+                        print(f'0 número {num} é Par)
+                    else:
+                        print(f'O número {num} é impar')
+                    print('fim do programa')
+                </pre>             
+
+        </code>
+
+        
+            <p class="titulo">Citações Simples</p>
+
+            <p>Para criar uma citação em HTML, podemos usar a tag <mark>&lt;q&gt;</mark> ( do Inglês quote, que significa citar).</p>
+
+            <p style="font-family: Arial, Helvetica, sans-serif;">Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+            <p class="titulo">Citações em Bloco</p>
+
+            <p>Podemos Também usar &lt;blockquote> para citações em bloco — ou seja, quando você quer destacar um trecho de texto que foi retirado de outra fonte.</p>
+
+            <p>Albert Einstein disse:</p>
+
+            <blockquote cite="https://www.goodreads.com/quotes">
+                A imaginação é mais importante que o conhecimento.
+            </blockquote>
+
+            <p class="titulo">Atributo &lt;address> para fornecer informações</p>
+
+            <p>O elemento &lt;address> em HTML é usado para fornecer informações de contato de uma pessoa, empresa, autor de um site ou dono do documento.</p>
+            
+            <address>
+            Escrito por <a href="mailto:contato@exemplo.com">Diego Santos</a><br>
+            Visite: <a href="https://www.exemplo.com">www.exemplo.com</a><br>
+            Rua das Flores, 123 - São Paulo, Brasil
+            </address>
+
+            <p class="titulo">Atributo &lt;cite> p/ identificar o título de uma obra</p>
+
+            <p>O elemento &lt;cite> em HTML é usado para identificar o título de uma obra: um livro, filme, música, artigo, site, pintura etc.</p>
+
+            <p>Um dos meus livros favoritos é <cite>Dom Quixote</cite>, de Miguel de Cervantes.</p>
+
+            <p class="titulo">Abreviações.</p>
+
+            <p>Estou estudando <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+            <p> Sempre que você quiser escrever uma sigla, mas 
+            deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag <mark>&lt;abbr&gt;</mark>.</p>
+
+            <p class="titulo">Texto invertido</p>
+
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+
+            <p>Você pode fazer essa mágica <q>Escrota</q>, usando a Tag ( <mark>&lt;bdo dir="rtl"&gt; &lt;/bdo&gt;</mark> )</p>
+        
+        </section> 
+        
+        <section>
+
+            <h1>Trabalhando com Listas <br> Ex009</h1>
+
+            <p class="titulo">Listas Ordenadas</p>            
+
+                <div>
+                    <ol type="I">
+                        <li>Acordar</li>
+                        <li>Ligar pro João</li>
+                        <li>Tomar Café</li>
+                        <li>Escovar os Dentes</li>
+                        <li>Ir para Faculdade</li>
+                        <li>Almoçar</li>
+                        <li>Ir para o trabalho</li>
+                        <li>Voltar para casa</li>
+                        <li>Jantar</li>
+                        <li>Dormir</li>
+                        <li></li>
+                    </ol>
+                </div>                
+
+                
+                <div>
+
+                    &lt; ol type="I" > <br>
+
+                    &lt;li&gt;Acordar&lt;/li&gt; <br>
+
+                    &lt;li&gt;Ligar pro João&lt;/li&gt; <br>
+
+                    &lt;li&gt;Tomar Café&lt;/li&gt; <br>
+
+                    &lt;li&gt;Escovar os Dentes&lt;/li&gt; <br>
+
+                    &lt;li&gt;Ir para Faculdade&lt;/li&gt; <br>
+
+                    &lt;li&gt;Almoçar&lt;/li&gt; <br>
+
+                    &lt;li&gt;Ir para o trabalho&lt;/li&gt; <br>
+
+                    &lt;li&gt;Voltar para casa&lt;/li&gt; <br>
+
+                    &lt;li&gt;Jantar&lt;/li&gt; <br>
+
+                    &lt;li&gt;Dormir&lt;/li&gt; <br>
+
+                    &lt;/ol>
+                </div>
+                           
+
+            <p class="titulo">Listas não ordenadas</p>
+
+            <ul>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+                <li>Alface</li>
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul> 
+            
+            <p class="titulo">Minhas Linguagem Favoritas</p>
+
+            <ol>
+
+            <li>Antigas</li>
+
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Visual Basic</li>
+                    <li>Fortran</li>
+                    <li>Delphi</li>
+                </ol>
+
+            <li>Novas</li>
+                <ol type="a" start="5">
+                    <li>Php</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>    
+                
+            </ol>
+
+            <p class="titulo">Meus Jogos Favoritos</p>
+
+            <ol class="espaco">
+                <li>NES</li>
+
+                    <ul type="Square">
+                        <li>Mario Bros</li>
+                        <ul>
+                            <li>Mario Bros 3</li>
+                            <li>Mario Lost Levels</li>
+                        </ul>                        
+                    </ul>
+                <LI>SNES</LI>
+
+                    <ul type="Square">
+                        <li>Mario</li>
+                        <li>Donkey Kong</li>                       
+                    </ul>
+
+                <li>PlayStation</li>
+                    <ul>
+                        <li>Final Fantasy</li>
+                        <li>Castlevania</li>
+                    </ul>        
+            </ol>
+
+            <p class="titulo">Lista de Definições</p>
+
+            <dl>
+
+                <dt>HTML</dt>
+
+                <dd>Linguagem de programação para a criação de conteúdo de um site.</dd>
+
+                <dt>CSS</dt>
+
+                <dd>Linguagem de marcação para a criação do design de um site.</dd>
+
+                <dt>JavaScript</dt>
+
+                <dd>Linguagem de programação para a criação de interatividade de um site.</dd>               
+
+            </dl>
+
+        </section>
+        
+        <section>
+
+            <h1>Criando Links Internos /Externos / Download <br> Ex010</h1>
+
+            <p class="titulo">Usando Links Externos</p>
+
+            <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" hreflang="pt-br" target="_blank" rel="external">repositório público no github</a></p>
+
+            <p><span class="cor">Exemplo:</span> Você pode acessar o meu &lt;a href="https://gustavoguanabara.github.io/" hreflang="pt-br" target="_blank" rel="external">repositório público no github&lt;/a></p>
+
+            <p>Você também pode acessar o meu <a href="https://www.youtube.com/cursoemvideo" hreflang="pt-br" target="_blank" rel="external">canal gratuito no Youtube</a></p>
+
+            <p><span class="cor">Exemplo:</span> Você também pode acessar o meu &lt;a href="https://www.youtube.com/cursoemvideo" hreflang="pt-br" target="_blank" rel="external">canal gratuito no Youtube&lt;/a></p>
+
+
+            <p class="titulo">Usando Links Internos</p>
+
+            <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="paginas/pag002010.html" target="_self"><mark>segunda página</mark></a></p>
+
+            <p><span class="cor">Exemplo:</span> Esta é a primeira página do site. Se você quiser, pode acessar também a minha &lt;a href="pag002010.html" target="_self"><mark>segunda página</mark>&lt;/a></p>
+
+
+            <p>Você também pode acessar a nossa <a href="noticias010/pag003.html" target="_self"><mark>página de notícias</mark></a></p>
+
+
+            <p><span class="cor">Exemplo:</span> Você também pode acessar a nossa &lt;a href="noticias010/pag003.html" target="_self"><mark>página de notícias</mark>&lt;/a></p>
+
+
+            <p class="titulo">Links para Download</p>
+
+            <ul>
+                <li> <a href="livro010/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+            </ul>           
+            
+            <p class="borda"><span class="cor">Exemplo:</span>
+                
+            <br>
+
+            <br> &lt;ul> 
+
+            <br> &lt;li> &lt;a href="livro010/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o Livro em PDF&lt;/a>&lt;/li>
+
+            <br> &lt;/ul>  
+
+            </p>
+
+        </section>
+
+    </main>
+
+    
+    
+</body>
+</html>
