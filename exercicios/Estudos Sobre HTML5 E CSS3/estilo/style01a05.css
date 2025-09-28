@@ -43,6 +43,7 @@ header h1 {
 /* Área main: Corpo da Página */
 
 main {
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     min-width: 300px;
@@ -114,4 +115,11 @@ th, td {
 section.cabecalho003 > img {
     display: block;
     margin: auto;   
+}
+
+p > img {
+    position: absolute;
+
+    padding-bottom: 200px;
+    margin-bottom: 200px;
 }

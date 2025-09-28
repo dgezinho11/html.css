@@ -73,65 +73,112 @@ section > h2 {
     text-indent: 20px;    
 }
 
-/* Configurando as bordas */
-
-div {
-    display: inline-block;
+span.cor {
+    width: 20%;
+    background-color: rgb(119, 166, 207);
+    color: rgb(249, 0, 120);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px 5px;     
+    text-indent: 0px;  
     text-align: center;
-    padding: 20px;
-    margin: 5px;
 }
 
-div#q1 {    
+p#back {
+    background-image: linear-gradient(to right, blue, red);
+    color: white;
+    margin: 10px;
+}
+
+/* Configurando as bordas */
+
+p.bordas {    
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    text-indent: 0px;
+    padding: 5px;
+    margin: 10px;    
+}
+
+/* Poderia usar essa maneira para chamar a função */
+
+:root {
+    --borda1: 2px solid powderblue;
+    --borda1: 2px dotted powderblue;
+    --borda1: 2px dashed powderblue;
+    --borda1: 2px inset powderblue;
+    --borda1: 2px outset powderblue;
+    --borda1: 2px hidden powderblue;
+}
+
+p#q1 {    
     border: 2px solid powderblue;    
 }
 
-div#q2 {
+p#q2 {
     border: 2px dotted powderblue;    
 }
 
-div#q3 {
+p#q3 {
     border: 2px dashed powderblue;    
 }
 
-div#q4 {
+p#q4 {
     border: 2px inset powderblue;    
 }
 
-div#q5 {
+p#q5 {
     border: 2px outset powderblue;    
 }
 
-div#q6 {
+p#q6 {
     border: 2px hidden powderblue;    
 }
 
-div#q1:hover {
+p#q1:hover {
     background-color: rgb(175, 68, 68);
     color: white;    
 }
 
-div#q2:hover {
+p#q2:hover {
     background-color: rgb(175, 170, 68);
     color: white;    
 }
 
-div#q3:hover {
+p#q3:hover {
     background-color: rgb(132, 175, 68);
     color: white;    
 }
 
-div#q4:hover {
+p#q4:hover {
     background-color: rgb(114, 68, 175);
     color: white;    
 }
 
-div#q5:hover {
+p#q5:hover {
     background-color: rgb(68, 157, 175);
     color: white;    
 }
 
-div#q6:hover {
+p#q6:hover {
     background-color: rgb(175, 68, 170);
     color: white;    
+}
+
+p#botao {
+    width: 40%;
+    text-align: center;
+    background-color: pink;
+    margin: auto;
+    text-indent: 0px;    
+}
+
+p#botao > a {
+    text-decoration: none;
+}
+
+p#botao:hover {
+    background-color: rgb(175, 68, 170);
+    color: white;
 }

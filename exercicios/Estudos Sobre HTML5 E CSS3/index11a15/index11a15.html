@@ -24,9 +24,9 @@
 
                 <picture>                    
 
-                    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                    <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
 
-                    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                    <source media="(max-width: 850px)" srcset="imagens/foto-m.png">                  
                 
                     <img src="imagens/foto-g.png" alt="Imagem Grande">
 
@@ -47,9 +47,19 @@
 
                         &lt;/picture>
 
-                    </aside>
-                
+                    </aside>                
                 </p>
+
+                
+                <p><mark>Mapas de imagem HTML</mark></p>
+
+                <img src="imagens/workplace.jpg" alt="Workplace" usemap="#workmap">
+                
+                <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.google.com">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+                </map>
 
             </section>
 

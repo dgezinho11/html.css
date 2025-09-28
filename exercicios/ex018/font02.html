@@ -17,8 +17,12 @@
             src: url('fonts/GastarGraffiti-outline.otf') format('opentype');
             font-weight: normal;
             font-style: normal;
-
             }
+
+        @font-face {
+            font-family: 'graffiti-extrude';
+            src: url(fonts/GastarGraffiti-Extrude.otf);
+        }
 
             /* Tipos de format()
                - opentype (otf)
@@ -35,13 +39,19 @@
         }
 
         h1 {
-            font-family: 'graffiti-outline', sans-serif;
+            font-family: 'graffiti-regular', sans-serif;
             font-size: 4em;
             font-weight: normal;
         } 
         
         h2 {
-            font-family: 'graffiti-regular', sans-serif;
+            font-family: 'graffiti-outline', sans-serif;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-family: 'graffiti-extrude', sans-serif;
             font-size: 4em;
             font-weight: normal;
         }
@@ -51,9 +61,12 @@
 </head>
 <body>
     
-    <h1>Títulos OUTLINE</h1>
-   
-    <h2>Títulos EXTRUDE</h2>
+    <h1>Títulos REGULAR</h1>
+       
+    <h2>Títulos OUTLINE</h2>
+
+    <h3>Títulos EXTRUDE</h3>
+    
     
 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas dicta modi, eos alias earum commodi nam quia aut itaque unde natus pariatur labore vel consectetur exercitationem fugit corporis omnis?</p>

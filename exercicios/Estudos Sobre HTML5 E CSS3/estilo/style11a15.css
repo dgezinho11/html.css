@@ -46,9 +46,9 @@ iframe {
     padding: 15px 0px;
 }
 
-img {
+img {    
     min-width: 300px;
-    max-width: 600px;
+    max-width: 600px;    
 }
 
 section > p {
